@@ -1,4 +1,4 @@
-# nuclei-templates
+# nuclei-template
 nuclei templete for fuzzing 
 
 
@@ -7,6 +7,6 @@ How to Use
 2. Add the template path by -t 
 
 Example:-
-nuclei -u https://www.tesla.com -t /root/nuclei-templates/exposures/files/hiddenfile.yaml
+nuclei -u https://www.airtel.com -t /root/nuclei-templates/exposures/files/hiddenfile.yaml
 
 It will give you all posiible hidden files that i added on my template you can add more hidden words to get more possibilities. 
