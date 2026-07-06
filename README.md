@@ -19,13 +19,13 @@ A custom **Nuclei** template designed to discover hidden or sensitive files by f
 Run the template against a target using the `-u` (URL) and `-t` (template) options:
 
 ```bash
-nuclei -u https://www.airtel.com -t /root/nuclei-templates/exposures/files/hiddenfile.yaml
+nuclei -u https://www.airtel.com -t /root/nuclei-templates/exposures/files/hiddenfiles.yaml
 ```
 
 ### Example
 
 ```bash
-nuclei -u https://example.com -t /path/to/hiddenfile.yaml
+nuclei -u https://example.com -t /path/to/hiddenfiles.yaml
 ```
 
 ## How It Works
